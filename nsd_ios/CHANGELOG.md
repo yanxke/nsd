@@ -1,3 +1,7 @@
+## 3.0.1
+
+* updated project to comply with pana SPM requirements
+
 ## 3.0.0
 
 * issue #86: added Swift Package Manager support
