@@ -1,3 +1,7 @@
+## 3.0.0
+
+* issue #86: added Swift Package Manager support
+
 ## 2.0.1
 
 * issue #60: made change log more readable by putting newest entry first

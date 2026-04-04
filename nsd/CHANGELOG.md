@@ -1,3 +1,7 @@
+## 5.0.0
+
+* issue #86: added Swift Package Manager support for iOS and macOS
+
 ## 4.1.0
 
 * issue #51: added warning for service type enumeration
