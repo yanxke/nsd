@@ -2,7 +2,7 @@ import Flutter
 
 private let channelName = "com.haberey/nsd"
 
-public class SwiftNsdIosPlugin: NSObject, FlutterPlugin, NetServiceBrowserDelegate, NetServiceDelegate {
+public class NsdIosPlugin: NSObject, FlutterPlugin, NetServiceBrowserDelegate, NetServiceDelegate {
 
     // NetServiceBrowser is deprecated but Network Framework only provides equivalent functionality since iOS 13
     // see https://developer.apple.com/forums/thread/682744
@@ -18,7 +18,7 @@ public class SwiftNsdIosPlugin: NSObject, FlutterPlugin, NetServiceBrowserDelega
 
     public static func register(with registrar: FlutterPluginRegistrar) {
         let methodChannel = FlutterMethodChannel(name: channelName, binaryMessenger: registrar.messenger())
-        let instance = SwiftNsdIosPlugin(methodChannel: methodChannel)
+        let instance = NsdIosPlugin(methodChannel: methodChannel)
         registrar.addMethodCallDelegate(instance, channel: methodChannel)
     }
 

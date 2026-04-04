@@ -1,3 +1,5 @@
+import Foundation
+
 func getErrorMessage(_ errorCode: NetService.ErrorCode?) -> String {
     guard let unwrapped = errorCode else {
         return "unknown error";
@@ -83,4 +85,3 @@ struct NsdError: Error {
         "\(message) (\(cause.code))"
     }
 }
-

@@ -5,18 +5,18 @@
 Pod::Spec.new do |s|
   s.name             = 'nsd_macos'
   s.version          = '0.0.1'
-  s.summary          = 'A new flutter plugin project.'
+  s.summary          = 'Flutter plugin for network service discovery'
   s.description      = <<-DESC
-A new flutter plugin project.
+Flutter plugin for network service discovery (NSD/DNS-SD/Bonjour/mDNS)
                        DESC
-  s.homepage         = 'http://example.com'
-  s.license          = { :file => '../LICENSE' }
-  s.author           = { 'Your Company' => 'email@example.com' }
+  s.homepage         = 'https://github.com/sebastianhaberey/nsd'
+  s.license          = { :type => 'MIT', :file => '../LICENSE' }
+  s.author           = { 'Sebastian Haberey' => 'sebastian@haberey.com' }
   s.source           = { :path => '.' }
   s.source_files     = 'Classes/**/*'
   s.dependency 'FlutterMacOS'
 
-  s.platform = :osx, '10.11'
+  s.platform = :osx, '10.14'
   s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES' }
   s.swift_version = '5.0'
 end
