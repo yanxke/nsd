@@ -86,8 +86,8 @@ and register multiple services. It will discover its own services but also other
 ## Minimum OS Requirements
 
 - Android: API level 21 (Android 5.0)
-- iOS: 12.0
-- macOS: 10.14 (Mojave)
+- iOS: 13.0
+- macOS: 10.15 (Catalina)
 - Windows 10 (19H1/1903) (Mai 2019 Update)
 
 ## Advanced Usage

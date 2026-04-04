@@ -4,15 +4,15 @@ import PackageDescription
 let package = Package(
     name: "nsd_macos",
     platforms: [
-        .macOS("10.14"),
+        .macOS("10.15"),
     ],
     products: [
-        .library(name: "nsd_macos", targets: ["nsd_macos"]),
+        .library(name: "nsd-macos", targets: ["nsd_macos"]),
     ],
     targets: [
         .target(
             name: "nsd_macos",
-            path: "macos/Classes"
+            path: "Sources/nsd_macos"
         ),
     ]
 )

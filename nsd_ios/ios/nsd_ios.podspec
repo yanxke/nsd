@@ -13,7 +13,7 @@ Flutter plugin for network service discovery (NSD/DNS-SD/Bonjour/mDNS)
   s.license          = { :type => 'MIT', :file => '../LICENSE' }
   s.author           = { 'Sebastian Haberey' => 'sebastian@haberey.com' }
   s.source           = { :path => '.' }
-  s.source_files = 'Classes/**/*'
+  s.source_files = 'nsd_ios/Sources/nsd_ios/**/*'
   s.dependency 'Flutter'
   s.platform = :ios, '12.0'
   s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES' }
